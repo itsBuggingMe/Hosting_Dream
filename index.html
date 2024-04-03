@@ -29,7 +29,7 @@
         Blazor.start({
             loadBootResource: function (type, name, defaultUri, integrity)
             {
-                if (type !== 'dotnetjs' && location.hostname !== 'localhost')
+                if (type !== 'dotnetjs' && location.hostname !== 'localhost' && false)
                 {
                     return (async function()
                     {
